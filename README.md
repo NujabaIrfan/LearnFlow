@@ -34,6 +34,16 @@ Create or join study groups, drop notes, and chat with your crew — all without
 
 ---
 
+## 📸 Screenshots
+
+> Here's a sneak peek into LearnFlow! *(Add your actual screenshots below once you have them)*
+
+| Home Screen | Task Manager | Calendar View | Group Chat |
+|-------------|--------------|----------------|-------------|
+| *(coming soon)* | *(coming soon)* | *(coming soon)* | *(coming soon)* |
+
+---
+
 ## 🧑‍🎓 Made for Students, by Students
 
 LearnFlow isn’t just an app — it’s your daily academic buddy. Whether you're a chronic procrastinator or a schedule ninja, LearnFlow adapts to your flow.
@@ -42,4 +52,4 @@ LearnFlow isn’t just an app — it’s your daily academic buddy. Whether you'
 
 ---
 
-Wanna see some mockups? Need help setting this up? Let’s make your planner experience a vibe.
+Want help with a launch page or Google Play preview mockup next?
