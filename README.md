@@ -30,7 +30,7 @@ Create or join study groups, drop notes, and chat with your crew — all without
 - 🧠 **Architecture**: MVVM (because clean code = happy devs)  
 - 🔄 **State Handling**: ViewModel + LiveData  
 - 🎨 **UI/UX**: Material Design – smooth, modern, and easy on the eyes  
-- 🧪 **Tools**: Android Studio + Jetpack + a splash of caffeine
+- 🧪 **Tools**: Android Studio + a splash of caffeine
 
 ---
 
