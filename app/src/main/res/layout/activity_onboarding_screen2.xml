@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".onboardingScreen1">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@color/light_purple"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboarding_text1.2"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="TouchTargetSize,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#DDD5E9"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/onboarding_text1.2"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="TouchTargetSize,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/onbarding_text1.1"
+        android:layout_width="203dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="42dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="Plan Prioritize Perform"
+        android:textColor="#8A76E7"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/onboarding_text1.2"
+        android:layout_width="335dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Stay on top of your academics with effortless scheduling, timely reminders, and a well-organized study plan for a stress-free semester"
+        android:textAlignment="center"
+        android:textColor="@color/Dark_blue"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onbarding_text1.1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="359dp"
+        android:layout_height="258dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/study" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#DDD5E9"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboarding_text1.2"
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="TouchTargetSize, HardcodedText,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

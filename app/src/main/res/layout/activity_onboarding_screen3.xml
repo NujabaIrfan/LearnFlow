@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:textAlignment="center"
+    tools:context=".onboardingScreen1">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#DDD5E9"
+        android:text="Join now!"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSize,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@color/light_purple"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        tools:ignore="TouchTargetSize,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/onbarding_text1.1"
+        android:layout_width="205dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="42dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="Let’s  Get Started!"
+        android:textColor="#8A76E7"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/onboarding_text1.2"
+        android:layout_width="329dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="casual"
+        android:text="Learn, plan, and grow together with LearnFlow"
+        android:textAlignment="center"
+        android:textColor="@color/Dark_blue"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onbarding_text1.1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#DDD5E9"
+        app:cornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSize, HardcodedText,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="344dp"
+        android:layout_height="232dp"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/start" />
+
+    <Button
+        android:id="@+id/Signup"
+        android:layout_width="158dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="101dp"
+        android:backgroundTint="@color/blue"
+        android:text="Join now!"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onboarding_text1.2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="102dp"
+        android:text="Already Have an Account?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Signup" />
+
+    <TextView
+        android:id="@+id/loginButton"
+        android:layout_width="41dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="100dp"
+        android:text="Login"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/Signup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

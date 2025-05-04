@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (60-30-10 Rule) -->
+    <!-- 60% - Dominant Color (Background) -->
+    <color name="blue">#d4f0f9</color>
+
+    <!-- 30% - Secondary Color (UI Elements) -->
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 10% - Accent Color (Highlights) -->
+    <color name="Dark_blue">#145494</color>
+
+    <!-- Additional Colors -->
+    <!-- Text/UI Colors -->
+    <color name="black">#FF000000</color>
+    <color name="Dark_Purple">#6672ff</color>
+    <color name="light_purple">#ced2ff</color>
+
+    <!-- Priority Indicator Colors -->
+    <color name="green_500">#4CAF50</color>  <!-- Low Priority -->
+    <color name="yellow_600">#FDD835</color> <!-- Medium Priority -->
+    <color name="red_500">#F44336</color>   <!-- High Priority -->
+
+    <!-- Additional UI Colors -->
+    <color name="purple_700">#7B1FA2</color> <!-- Alternative Purple -->
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MAD</string>
+    <string name="Brand_name">Learn Flow</string>
+    <string name="onboarding_text1">Welcome to LearnFlow</string>
+    <string name="onboarding_text2">Stay ahead in your studies with seamless planning, smart reminders, and a stress-free academic journey!
+    </string>
+    <string-array name="mantras">
+        <item>"Believe in yourself and all that you are."</item>
+        <item>"Stay positive, work hard, make it happen."</item>
+        <item>"Success is not final, failure is not fatal."</item>
+        <item>"Small steps every day lead to big results."</item>
+        <item>"Your only limit is your mind."</item>
+    </string-array>
+    <string name="title_activity_tasks">Tasks</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

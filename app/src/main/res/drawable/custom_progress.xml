@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background (unfilled track) -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/> <!-- Rounded corners -->
+            <solid android:color="@color/light_purple"/> <!-- Light gray background -->
+            <size android:height="20dp"/> <!-- Thickness of the progress bar -->
+        </shape>
+    </item>
+
+    <!-- Progress bar (filled part) -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="20dp"/> <!-- Rounded corners -->
+                <solid android:color="@color/Dark_Purple"/> <!-- Purple progress color -->
+                <size android:height="20dp"/> <!-- Thickness of the progress bar -->
+            </shape>
+        </clip>
+    </item>
+</layer-list>
