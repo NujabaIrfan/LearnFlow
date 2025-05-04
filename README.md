@@ -1,35 +1,32 @@
-# LearnFlow - Student Planner (Frontend)
+# 📘 LearnFlow – Your Smart Student Planner
 
-![LearnFlow Banner](https://via.placeholder.com/1200x400?text=LearnFlow+Student+Planner)
+**LearnFlow** is a modern Android app designed to simplify academic life. From managing daily tasks to collaborating with peers, LearnFlow empowers students to stay organized, focused, and connected.
 
-An Android application to help students manage academic tasks, collaborate on assignments, and schedule activities.
+---
 
-## Features
+## ✨ Key Features
 
-✅ **Task Management**  
-Create, edit, and prioritize tasks with deadline tracking  
+✅ **Smart Task Management**  
+Organize and prioritize your academic tasks with due dates, progress indicators, and reminders.
 
 👥 **Collaborative Assignments**  
-Work together on assignments with task delegation and progress updates  
+Assign tasks, track group progress, and collaborate effectively with classmates in real-time.
 
-📅 **Calendar Integration**  
-Schedule exams and deadlines with reminders  
+📅 **Integrated Calendar**  
+Plan exams, deadlines, and events using an intuitive calendar interface with customizable alerts.
 
-📊 **Profile Management**  
-Track academic achievements and progress  
+📊 **Personal Progress Tracker**  
+View academic milestones, achievements, and performance summaries—all in one place.
 
-👨‍👩‍👧‍👦 **Group Collaboration**  
-Create study groups with shared notes and messaging  
+👨‍👩‍👧‍👦 **Group Study & Communication**  
+Create or join study groups, share notes, and chat with peers to boost collaborative learning.
 
-## Screenshots
+---
 
-| Home | Tasks | Calendar | Groups |
-|------|-------|----------|--------|
-| ![Home](https://via.placeholder.com/200x400?text=Home) | ![Tasks](https://via.placeholder.com/200x400?text=Tasks) | ![Calendar](https://via.placeholder.com/200x400?text=Calendar) | ![Groups](https://via.placeholder.com/200x400?text=Groups) |
+## 🛠 Tech Stack
 
-## Tech Stack
-
-- **Language**: Kotlin
-- **Architecture**: MVVM
-- **State Management**: ViewModel + LiveData
-
+- **Language**: Kotlin  
+- **Architecture**: MVVM (Model-View-ViewModel)  
+- **State Management**: ViewModel + LiveData  
+- **UI Design**: Material Design Components  
+- **Tools**: Android Studio, Jetpack Libraries
